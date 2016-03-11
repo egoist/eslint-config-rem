@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-egoist",
+  "version": "0.0.1",
+  "description": "My personal eslint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/eslint-config-egoist.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/eslint-config-egoist/issues"
+  },
+  "homepage": "https://github.com/egoist/eslint-config-egoist#readme",
+  "dependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint-plugin-babel": "^3.1.0"
+  }
+}
