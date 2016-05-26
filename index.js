@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   parser: 'babel-eslint',
@@ -146,7 +146,7 @@ module.exports = {
     'quote-props': [2, 'consistent-as-needed'],
     'quotes': [2, 'single', {allowTemplateLiterals: true}],
     'semi-spacing': [2, {before: false, after: true}],
-    'semi': [2, 'always'],
+    'semi': [2, 'never'],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],
     'space-in-parens': [2, 'never'],
@@ -176,4 +176,4 @@ module.exports = {
     'template-curly-spacing': 2,
     'yield-star-spacing': [2, 'both']
   }
-};
+}
