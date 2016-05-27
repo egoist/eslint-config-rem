@@ -1,12 +1,18 @@
 'use strict'
 
 module.exports = {
-  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true
+    }
+  },
   env: {
     node: true,
-    es6: true,
-    browser: true
-  },
+    es6: true
+  }
   rules: {
     'comma-dangle': [2, 'never'],
     'no-cond-assign': 2,
