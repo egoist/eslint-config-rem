@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-egoist",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "My personal eslint config.",
   "main": "index.js",
   "scripts": {
