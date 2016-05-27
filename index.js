@@ -12,7 +12,7 @@ module.exports = {
   env: {
     node: true,
     es6: true
-  }
+  },
   rules: {
     'comma-dangle': [2, 'never'],
     'no-cond-assign': 2,
