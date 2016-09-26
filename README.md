@@ -7,9 +7,6 @@
 |Enforce ES2015+|egoist/esnext|
 |Enforce ES2015+ in Browser **only**|egoist/exnext-browser|
 
-**Notes**:
-
-Vue requires `eslint-plugin-html`
 
 ## Install
 
