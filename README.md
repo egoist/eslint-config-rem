@@ -1,4 +1,4 @@
-My personal ESLint config.
+**My personal ESLint config**:
 
 |Type|Extends|
 |---|---|
