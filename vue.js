@@ -2,5 +2,9 @@
 var base = require('./')
 
 module.exports = Object.assign({}, base, {
-  extends: 'xo/browser'
+  extends: ['xo/esnext', 'xo/browser'],
+  plugins: [
+  	'babel',
+  	'vue'
+  ]
 })
