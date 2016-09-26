@@ -10,4 +10,4 @@
 
 **Notes**:
 
-Vue requires `eslint-plugin-vue` and `eslint-plugin-html`
+Vue requires `eslint-plugin-html`
