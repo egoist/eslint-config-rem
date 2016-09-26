@@ -10,3 +10,20 @@
 **Notes**:
 
 Vue requires `eslint-plugin-html`
+
+## Install
+
+```bash
+$ npm install -D eslint eslint-config-egoist
+```
+
+## Usage
+
+```js
+{
+  // egoist | egoist/browser | egoist/esnext | egoist/esnext-browser
+  "extends": "egoist"
+}
+```
+
+You may also like [eslint-config-egoist-vue](https://github.com/egoist/eslint-config-egoist-vue) for linting Vue projects.
