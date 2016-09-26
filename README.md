@@ -8,5 +8,7 @@ My personal ESLint config.
 |Babel + Browser|egoist/babel-browser|
 |Babel + Browser + Vue|egoist/vue|
 
-**note** babel requires `babel-eslint` and `eslint-plugin-babel`
-**note** vue requires `eslint-plugin-vue`
+## Notes
+
+- babel requires `babel-eslint` and `eslint-plugin-babel`
+- vue requires `eslint-plugin-vue`
