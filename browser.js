@@ -1,6 +1,10 @@
-'use strict'
-var base = require('./')
+'use strict';
+const path = require('path')
 
-module.exports = Object.assign({}, base, {
-  extends: 'xo/browser'
-})
+module.exports = {
+  extends: path.join(__dirname, 'index.js'),
+  env: {
+    node: false,
+    browser: true
+  }
+}

@@ -1,6 +1,10 @@
-'use strict'
-var base = require('./')
+'use strict';
+const path = require('path')
 
-module.exports = Object.assign({}, base, {
-  extends: ['xo/esnext', 'xo/browser']
-})
+module.exports = {
+  extends: path.join(__dirname, 'esnext.js'),
+  env: {
+    node: false,
+    browser: true
+  }
+}
