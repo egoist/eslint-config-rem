@@ -1,6 +1,6 @@
 # ESLint config for 🌟rem🌟
 
-![rem](http://i.giphy.com/CktDRAS54pAcM.gif)
+<img src="./media/rem.gif" alt="rem" width="400">
 
 |Type|Extends|
 |---|---|
