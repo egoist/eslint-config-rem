@@ -23,3 +23,7 @@ $ npm install -D eslint eslint-config-rem
   "extends": "rem"
 }
 ```
+
+## Rules
+
+In general, this config suggest: `2 spaces indention` and `no semicolon`
