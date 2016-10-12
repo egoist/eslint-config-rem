@@ -26,4 +26,4 @@ $ npm install -D eslint eslint-config-rem
 
 ## Rules
 
-In general, this config suggest: `2 spaces indention` and `no semicolon`
+This config is a fork of eslint-config-xo but with: `2 spaces indention` and `no semicolon` and more.
