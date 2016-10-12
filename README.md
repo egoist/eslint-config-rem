@@ -1,26 +1,25 @@
-**My personal ESLint config**:
+# ESLint config for 🌟rem🌟
+
+![rem](http://i.giphy.com/CktDRAS54pAcM.gif)
 
 |Type|Extends|
 |---|---|
-|Default (optional ES2015+)|egoist|
-|Browser|egoist/browser|
-|Enforce ES2015+|egoist/esnext|
-|Enforce ES2015+ in Browser **only**|egoist/exnext-browser|
+|Default (optional ES2015+)|rem|
+|Browser|rem/browser|
+|Enforce ES2015+|rem/esnext|
+|Enforce ES2015+ in Browser **only**|rem/exnext-browser|
 
 
 ## Install
 
 ```bash
-$ npm install -D eslint eslint-config-egoist
+$ npm install -D eslint eslint-config-rem
 ```
 
 ## Usage
 
 ```js
 {
-  // egoist | egoist/browser | egoist/esnext | egoist/esnext-browser
-  "extends": "egoist"
+  "extends": "rem"
 }
 ```
-
-You may also like [eslint-config-egoist-vue](https://github.com/egoist/eslint-config-egoist-vue) for linting Vue projects.

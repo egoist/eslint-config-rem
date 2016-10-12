@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-egoist",
-  "version": "1.0.5",
-  "description": "My personal eslint config.",
+  "name": "eslint-config-rem",
+  "version": "0.0.0",
+  "description": "eslint config for rem.",
   "main": "index.js",
   "scripts": {
     "test": "echo lol"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egoist/eslint-config-egoist.git"
+    "url": "git+https://github.com/egoist/eslint-config-rem.git"
   },
   "keywords": [
     "eslint"
@@ -16,12 +16,9 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egoist/eslint-config-egoist/issues"
+    "url": "https://github.com/egoist/eslint-config-rem/issues"
   },
-  "homepage": "https://github.com/egoist/eslint-config-egoist#readme",
-  "dependencies": {
-    "eslint-config-xo": "^0.16.0"
-  },
+  "homepage": "https://github.com/egoist/eslint-config-rem#readme",
   "peerDependencies": {
     "eslint": ">=3.6.0"
   }
