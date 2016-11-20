@@ -140,7 +140,7 @@ module.exports = {
     'computed-property-spacing': ['error', 'never'],
     'eol-last': 'error',
     'func-call-spacing': ['error', 'never'],
-    'func-names': ['error', 'as-needed'],
+    'func-names': ['error', 'never'],
     'indent': ['error', 2, {
       SwitchCase: 1
     }],
