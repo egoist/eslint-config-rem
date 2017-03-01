@@ -7,7 +7,7 @@
     "test": "echo lol"
   },
   "files": [
-    "*.js"
+    "index.js"
   ],
   "repository": {
     "type": "git",
@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/egoist/eslint-config-rem/issues"
   },
-  "homepage": "https://github.com/egoist/eslint-config-rem#readme",
-  "peerDependencies": {
-    "eslint": ">=3.6.0"
-  }
+  "homepage": "https://github.com/egoist/eslint-config-rem#readme"
 }

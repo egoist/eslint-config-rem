@@ -2,13 +2,12 @@
 
 <img src="./media/rem.gif" alt="rem" width="400">
 
-|Type|Extends|
-|---|---|
-|Default (optional ES2015+)|rem|
-|Browser|rem/browser|
-|Enforce ES2015+|rem/esnext|
-|Enforce ES2015+ in Browser **only**|rem/exnext-browser|
+This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo).
 
+## Features
+
+- Indent with 2 spaces and no semicolon
+- ...some tweaks for my preference.
 
 ## Install
 
@@ -18,9 +17,22 @@ $ npm install -D eslint eslint-config-rem
 
 ## Usage
 
+In ESLint:
+
 ```js
 {
-  "extends": "rem"
+  "extends": ["xo/esnext", "rem"]
+}
+```
+
+Or in XO:
+
+```js
+{
+  "xo": {
+    "esnext": true,
+    "extends": "rem"
+  }
 }
 ```
 
