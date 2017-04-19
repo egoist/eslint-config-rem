@@ -4,6 +4,7 @@ module.exports = {
     indent: [2, 2, {SwitchCase: 1}],
     // disable semi
     semi: [2, 'never'],
+    'capitalized-comments': 0,
     'object-curly-spacing': [
       'error',
       'always'
