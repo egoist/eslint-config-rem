@@ -4,7 +4,14 @@
   "description": "eslint config for rem.",
   "main": "index.js",
   "scripts": {
-    "test": "echo lol"
+    "test": "eslint *.js",
+    "fix": "npm run test -- --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo/esnext",
+      "./prettier.js"
+    ]
   },
   "files": [
     "index.js"
@@ -21,5 +28,15 @@
   "bugs": {
     "url": "https://github.com/egoist/eslint-config-rem/issues"
   },
-  "homepage": "https://github.com/egoist/eslint-config-rem#readme"
+  "homepage": "https://github.com/egoist/eslint-config-rem#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-xo": "^0.18.1",
+    "xo": "^0.18.1"
+  }
 }

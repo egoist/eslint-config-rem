@@ -21,7 +21,7 @@ In ESLint:
 
 ```js
 {
-  "extends": ["xo", "rem"]
+  "extends": ["xo/esnext", "rem"]
 }
 ```
 
@@ -31,6 +31,16 @@ Or in XO:
 {
   "xo": {
     "extends": "rem"
+  }
+}
+```
+
+**Use Prettier:**
+
+```js
+{
+  "xo": {
+    "extends": "rem/prettier"
   }
 }
 ```
