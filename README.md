@@ -7,6 +7,7 @@ This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or
 ## Features
 
 - Indent with 2 spaces and no semicolon
+- [Prettier!](#prettier)
 - ...some tweaks for my preference.
 
 ## Install
@@ -35,7 +36,7 @@ Or in XO:
 }
 ```
 
-**Use Prettier:**
+### Use Prettier
 
 ```js
 {
