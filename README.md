@@ -45,7 +45,3 @@ Or in XO:
   }
 }
 ```
-
-## Rules
-
-This config is a fork of eslint-config-xo but with: `2 spaces indention` and `no semicolon` and more.
