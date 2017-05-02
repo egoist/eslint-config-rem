@@ -14,7 +14,8 @@
     ]
   },
   "files": [
-    "index.js"
+    "index.js",
+    "prettier.js"
   ],
   "repository": {
     "type": "git",
