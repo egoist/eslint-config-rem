@@ -22,7 +22,9 @@ In ESLint:
 
 ```js
 {
-  "extends": ["xo/esnext", "rem"]
+  "eslintConfig": {
+    "extends": ["xo/esnext", "rem"]
+  }
 }
 ```
 
@@ -42,6 +44,18 @@ Or in XO:
 {
   "xo": {
     "extends": "rem/prettier"
+  }
+}
+```
+
+### Lint code blocks in markdown
+
+It uses [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown):
+
+```js
+{
+  "xo": {
+    "extensions": ["md"]
   }
 }
 ```

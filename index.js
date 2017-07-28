@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['markdown'],
   rules: {
     // indent with 2 space
     indent: [2, 2, { SwitchCase: 1 }],
