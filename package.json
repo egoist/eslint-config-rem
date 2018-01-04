@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rem",
-  "version": "3.2.2",
+  "version": "4.0.0",
   "description": "eslint config for rem.",
   "main": "index.js",
   "scripts": {
