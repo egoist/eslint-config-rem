@@ -7,7 +7,6 @@ This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or
 ## Features
 
 - Indent with 2 spaces and no semicolon
-- [Prettier!](#use-prettier)
 - [Lint code blocks in Markdown!](#lint-code-blocks-in-markdown)
 - ...some tweaks for my preference.
 

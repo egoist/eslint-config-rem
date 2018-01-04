@@ -4,25 +4,24 @@
   "description": "eslint config for rem.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint *.js",
-    "fix": "npm run test -- --fix"
+    "test": "eslint index.js"
   },
   "eslintConfig": {
     "extends": [
-      "xo/esnext",
-      "./prettier.js"
+      "xo",
+      "./index.js"
     ]
   },
   "files": [
-    "index.js",
-    "prettier.js"
+    "index.js"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/egoist/eslint-config-rem.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "xo"
   ],
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
@@ -31,14 +30,10 @@
   },
   "homepage": "https://github.com/egoist/eslint-config-rem#readme",
   "dependencies": {
-    "eslint-config-prettier": "^1.7.0",
-    "eslint-plugin-markdown": "^1.0.0-beta.6",
-    "eslint-plugin-prettier": "^2.0.1",
-    "prettier": "^1.2.2"
+    "eslint-plugin-markdown": "^1.0.0-beta.6"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-xo": "^0.18.1",
-    "xo": "^0.18.1"
+    "eslint": "^4.14.0",
+    "eslint-config-xo": "^0.19.0"
   }
 }
